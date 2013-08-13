@@ -1,5 +1,5 @@
 class EventBus
-  def self.with_temporary_subscriber(pattern, listener, method_name, &block)
+  def self.with_temporary_subscriber(pattern, listener = nil, method_name = nil)
     subscribe(pattern, listener, method_name)
     temporary_subscriber = registrations.last_subscriber
 

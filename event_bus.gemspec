@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'jmoses_event_bus'
-  s.version     = '1.0.2'
+  s.version     = '1.0.3'
   s.date        = '2013-07-31'
   s.summary     = 'A simple pubsub event bus for Ruby applications (fork by jmoses)'
   s.description = 'event_bus provides support for application-wide events, without coupling the publishing and subscribing objects or classes to each other'
